@@ -1,6 +1,6 @@
 // Function to fetch movies data from a local server and display them
 function moviesArray() {
-    fetch("http://localhost:3000/films")
+    fetch("https://my-json-server.typicode.com/levismunene01/Code-challenge-phase01-week03/films")
     .then(res => res.json())
     .then(moviesArray => {
         // Display movie titles and information
